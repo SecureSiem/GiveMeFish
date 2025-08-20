@@ -10,6 +10,10 @@
 
     # 2) Put your keys into .env (or export them in your shell)
 
+  # Before run do this:
+
+        pip install "openai==0.28"
+
     # 3) Run on an .eml
     python3 GiveMeFish.py -E /path/to/message.eml
 
