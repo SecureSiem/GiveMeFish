@@ -1,0 +1,9 @@
+python-dotenv
+requests
+beautifulsoup4
+python-whois
+dkimpy
+pyspf
+dnspython
+oletools
+openai
