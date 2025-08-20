@@ -579,7 +579,7 @@ def analyze_email(path: str, no_network=False, output=None, verbose=False, auto_
     url_entries = extract_urls_from_text(body_text)
 
     report = {
-        "meta": {"path": path, "timestamp": datetime.datetime.utcnow().isoformat()+"Z"},
+        "meta": {"path": path, "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat()},
         "header": header,
         "from_domain": from_domain,
         "ips_in_received": ips,
