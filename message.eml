@@ -1,0 +1,17 @@
+From: PayPal Security <support@secure-paypal-login.com>
+Subject: Urgent: Verify Your Account Immediately
+Date: Tue, 20 Aug 2025 09:12:45 +0000
+Message-ID: <987654321@secure-paypal-login.com>
+To: victim@example.com
+Received-SPF: fail (secure-paypal-login.com: domain of 123.45.67.89 does not designate as permitted sender)
+Authentication-Results: spf=fail smtp.mailfrom=secure-paypal-login.com; dkim=fail; dmarc=fail
+
+Dear Customer,
+
+We detected suspicious activity. Please verify your account immediately:
+http://secure-paypal-login.com/verify
+
+Failure to act will result in account suspension.
+
+Sincerely,  
+PayPal Security
