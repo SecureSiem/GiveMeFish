@@ -1,8 +1,12 @@
 # 🛠 Installation
     # 1) Install dependencies globally (or use pipx if you prefer isolation)
     # clone the repo and give exicutable to GiveMeFish.py
-    chmod +x GiveMeFish.py
-    pip install -r requirements.txt
+    cd ~/Desktop/GiveMeFish
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+        chmod +x GiveMeFish.py
+        pip install -r requirements.txt
 
     # 2) Put your keys into .env (or export them in your shell)
 
